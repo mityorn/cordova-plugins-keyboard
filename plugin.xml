@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-    id="com.ionic.keyboard"
+    id="com.mityorn.keyboard"
     version="1.0.5">
     <name>Keyboard</name>
-    <description>Ionic Keyboard Plugin</description>
+    <description>Cordova Keyboard Plugin</description>
     <license>Apache 2.0</license>
-    <keywords>Ionic,keyboard</keywords>
-    <repo>https://github.com/driftyco/ionic-plugins-keyboard.git</repo>
-    <issue>https://github.com/driftyco/ionic-plugins-keyboard/issues</issue>
+    <keywords>keyboard</keywords>
+    <repo>https://github.com/mityorn/cordova-plugins-keyboard.git</repo>
+    <issue>https://github.com/mityorn/cordova-plugins-keyboard/issues</issue>
 
   <js-module src="www/keyboard.js" name="keyboard">
     <clobbers target="cordova.plugins.Keyboard" />
@@ -19,7 +19,7 @@
 
     <config-file target="res/xml/config.xml" parent="/*">
       <feature name="Keyboard">
-        <param name="android-package" value="com.ionic.keyboard.IonicKeyboard" />
+        <param name="android-package" value="com.mityorn.keyboard" />
         <param name="onload" value="true" />
       </feature>
     </config-file>

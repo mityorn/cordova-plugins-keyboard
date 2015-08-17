@@ -1,8 +1,8 @@
 {
-  "name": "ionic-plugin-keyboard",
+  "name": "cordova-plugin-keyboard",
   "version": "1.0.5",
   "cordova": {
-    "id": "ionic-plugin-keyboard",
+    "id": "cordova-plugin-keyboard",
     "platforms": [
       "android",
       "ios",
@@ -11,11 +11,10 @@
       "windows"
     ]
   },
-  "description": "Ionic Keyboard Plugin",
-  "repository": "https://github.com/driftyco/ionic-plugins-keyboard.git",
-  "issue": "https://github.com/driftyco/ionic-plugins-keyboard/issues",
+  "description": "Cordova Keyboard Plugin",
+  "repository": "https://github.com/mityorn/cordova-plugins-keyboard.git",
+  "issue": "https://github.com/mityorn/cordova-plugins-keyboard/issues",
   "keywords": [
-    "ionic",
     "cordova",
     "keyboard",
     "ecosystem:cordova",
